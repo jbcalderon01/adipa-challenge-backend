@@ -316,7 +316,6 @@ ADIPA opera cursos y diplomados en psicología y salud mental con más de 100,00
 ## ⚠️ Supuestos y limitaciones
 
 - **PDFs escaneados (imágenes sin OCR):** `pdfplumber` solo extrae texto nativo. Un PDF que es foto de una página no devolverá texto → HTTP 422. Se podría agregar OCR con `pytesseract` si fuera necesario.
-- **Tablas en Word:** `python-docx` aquí solo procesa párrafos. Preguntas dentro de tablas de Word no serán extraídas en esta versión.
 - **Formato de emparejamiento:** el LLM recibe el texto tabular y clasifica el tipo. Como el enunciado no especifica cómo representar el emparejamiento (pares en JSON vs texto continuo), el adaptador actual deja `alternatives: []` y preserva el contenido completo en `content`. **Supuesto documentado:** por consistencia con V/F y desarrollo (que también tienen `alternatives: []`).
 - **Tamaño máximo de archivo:** no hay límite explícito en esta versión. En producción se debería validar (ej: 10MB).
 - **Idioma:** el LLM fue probado con documentos en español. Otros idiomas pueden funcionar pero no se garantiza.
