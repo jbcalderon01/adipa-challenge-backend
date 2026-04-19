@@ -26,7 +26,7 @@ Respond ONLY with a JSON object matching this exact schema:
 - "seleccion_multiple": the question lists labeled alternatives (A, B, C, D, ...).
 - "verdadero_falso": a true/false statement. alternatives MUST be an empty array [].
 - "desarrollo": open-ended question, the student writes a free answer. alternatives MUST be an empty array [].
-- "emparejamiento": pairing/matching two columns. alternatives MUST be an empty array [].
+- "emparejamiento": pairing/matching two columns. alternatives MUST be an empty array []. Include both columns in the "content" field as flowing text (e.g., "Match the items. Column A: 1. X, 2. Y. Column B: a) A, b) B").
 
 ## General rules
 
@@ -86,27 +86,6 @@ Output:
       "number": 2,
       "content": "Describa el ciclo del agua.",
       "type": "desarrollo",
-      "alternatives": [],
-      "correct_answer": null
-    }
-  ]
-}
-
-## Example 3 — matching
-
-Input:
-1. Una cada país con su continente:
-Columna A: 1. Japón, 2. Egipto, 3. Brasil
-Columna B: a) África, b) Sudamérica, c) Asia
-
-Output:
-{
-  "total_questions": 1,
-  "questions": [
-    {
-      "number": 1,
-      "content": "Una cada país con su continente: Columna A: 1. Japón, 2. Egipto, 3. Brasil. Columna B: a) África, b) Sudamérica, c) Asia",
-      "type": "emparejamiento",
       "alternatives": [],
       "correct_answer": null
     }
