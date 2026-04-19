@@ -1,0 +1,121 @@
+{
+  "total_preguntas": 13,
+  "preguntas": [
+    {
+      "numero": 1,
+      "enunciado": "Según el DSM-5, uno de los criterios centrales para el diagnóstico de Trastorno por Déficit de Atención con Hiperactividad (TDAH) es:",
+      "tipo": "seleccion_multiple",
+      "alternativas": [
+        { "letra": "A", "texto": "La presencia de síntomas antes de los 12 años" },
+        { "letra": "B", "texto": "La presencia de síntomas antes de los 6 años" },
+        { "letra": "C", "texto": "La presencia de alucinaciones auditivas persistentes" },
+        { "letra": "D", "texto": "Inicio súbito posterior a un evento traumático" }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "numero": 2,
+      "enunciado": "La prueba WISC-V evalúa principalmente:",
+      "tipo": "seleccion_multiple",
+      "alternativas": [
+        { "letra": "A", "texto": "Personalidad y rasgos emocionales" },
+        { "letra": "B", "texto": "Funcionamiento intelectual en niños entre 6 y 16 años" },
+        { "letra": "C", "texto": "Trastornos del espectro autista" },
+        { "letra": "D", "texto": "Niveles de ansiedad en adolescentes" }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "numero": 3,
+      "enunciado": "En la evaluación del apego en niños pequeños, el paradigma más utilizado es:",
+      "tipo": "seleccion_multiple",
+      "alternativas": [
+        { "letra": "A", "texto": "Test de Rorschach" },
+        { "letra": "B", "texto": "Situación Extraña de Ainsworth" },
+        { "letra": "C", "texto": "Inventario Beck de Depresión" },
+        { "letra": "D", "texto": "Test de Matrices Progresivas de Raven" }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "numero": 4,
+      "enunciado": "¿Cuál de los siguientes trastornos es clasificado como del neurodesarrollo en el DSM-5?",
+      "tipo": "seleccion_multiple",
+      "alternativas": [
+        { "letra": "A", "texto": "Trastorno Depresivo Mayor" },
+        { "letra": "B", "texto": "Trastorno del Espectro Autista" },
+        { "letra": "C", "texto": "Trastorno de Estrés Postraumático" },
+        { "letra": "D", "texto": "Anorexia Nerviosa" }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "numero": 5,
+      "enunciado": "El modelo de intervención psicoterapéutica basado en mentalización fue desarrollado principalmente por:",
+      "tipo": "seleccion_multiple",
+      "alternativas": [
+        { "letra": "A", "texto": "Aaron Beck" },
+        { "letra": "B", "texto": "Carl Rogers" },
+        { "letra": "C", "texto": "Peter Fonagy" },
+        { "letra": "D", "texto": "Daniel Stern" }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "numero": 6,
+      "enunciado": "El diagnóstico de Trastorno del Espectro Autista requiere la presencia de déficits en comunicación social y patrones restringidos o repetitivos de comportamiento.",
+      "tipo": "verdadero_falso",
+      "alternativas": [],
+      "respuesta_correcta": "Verdadero"
+    },
+    {
+      "numero": 7,
+      "enunciado": "La psicoterapia basada en el juego es efectiva únicamente en niños menores de 5 años.",
+      "tipo": "verdadero_falso",
+      "alternativas": [],
+      "respuesta_correcta": "Falso"
+    },
+    {
+      "numero": 8,
+      "enunciado": "En Chile, la Ley de Salud Mental 21.331 garantiza el derecho al consentimiento informado en niños, niñas y adolescentes según su capacidad evolutiva.",
+      "tipo": "verdadero_falso",
+      "alternativas": [],
+      "respuesta_correcta": "Verdadero"
+    },
+    {
+      "numero": 9,
+      "enunciado": "El Trastorno de Conducta en la infancia siempre evoluciona a Trastorno Antisocial de la Personalidad en la adultez.",
+      "tipo": "verdadero_falso",
+      "alternativas": [],
+      "respuesta_correcta": "Falso"
+    },
+    {
+      "numero": 10,
+      "enunciado": "Describa las fases del proceso de evaluación psicodiagnóstica en niños y adolescentes, mencionando al menos tres instrumentos estandarizados adecuados para la población chilena.",
+      "tipo": "desarrollo",
+      "alternativas": [],
+      "respuesta_correcta": null
+    },
+    {
+      "numero": 11,
+      "enunciado": "Analice las diferencias entre el Trastorno Reactivo del Apego y el Trastorno de Relación Social Desinhibida, considerando criterios diagnósticos, etiología y abordaje terapéutico.",
+      "tipo": "desarrollo",
+      "alternativas": [],
+      "respuesta_correcta": null
+    },
+    {
+      "numero": 12,
+      "enunciado": "Explique el rol del entrevistador clínico en la obtención de información con menores de edad y sus cuidadores, abordando consideraciones éticas específicas al contexto infantojuvenil.",
+      "tipo": "desarrollo",
+      "alternativas": [],
+      "respuesta_correcta": null
+    },
+    {
+      "numero": 13,
+      "enunciado": "Relacione cada trastorno del neurodesarrollo con el instrumento de evaluación más comúnmente utilizado para su tamizaje. Columna A: 1. Trastorno del Espectro Autista, 2. Trastorno por Déficit de Atención con Hiperactividad, 3. Discapacidad Intelectual, 4. Trastorno Específico del Aprendizaje. Columna B: a) WISC-V y Escala Vineland, b) ADI-R y ADOS-2, c) ENI-2 (Evaluación Neuropsicológica Infantil), d) Conners-3 y SNAP-IV.",
+      "tipo": "emparejamiento",
+      "alternativas": [],
+      "respuesta_correcta": "1-b, 2-d, 3-a, 4-c"
+    }
+  ]
+}
