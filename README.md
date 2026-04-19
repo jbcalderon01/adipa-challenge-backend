@@ -131,6 +131,39 @@ La API queda en `http://localhost:8000`. Abre `http://localhost:8000/docs` para 
 
 ---
 
+## ☁️ Deploy en Railway
+
+El proyecto incluye un `railway.json` listo para desplegar en [Railway](https://railway.com).
+
+### Pasos
+
+1. **Crear cuenta** en [railway.com](https://railway.com) y conectar GitHub.
+2. **New Project → Deploy from GitHub repo** → selecciona este repositorio.
+3. **Configurar root directory** (clave en monorepo):
+   - Project settings → **Root Directory** = `adipa-challenge-backend`
+4. **Agregar variables de entorno** (Settings → Variables):
+   ```
+   GROQ_API_KEY=gsk_xxxxx
+   GROQ_MODEL=llama-3.1-8b-instant
+   GROQ_TEMPERATURE=0.2
+   GROQ_MAX_TOKENS=4096
+   ```
+5. **Generar dominio público** (Settings → Networking → Generate Domain). Railway te da una URL tipo `adipa-challenge-backend-production.up.railway.app`.
+6. **Actualizar README** con la URL real en "Demo en producción".
+
+### Cómo funciona
+
+- Railway usa [Nixpacks](https://nixpacks.com) para detectar Python y ejecutar `pip install -r requirements.txt`.
+- `.python-version` fija Python 3.12.
+- `railway.json` declara el comando de arranque (`uvicorn ... --port $PORT`) y el health check en `/health`.
+- Railway inyecta `$PORT` automáticamente en cada deploy.
+
+### Redeploy automático
+
+Cada `git push` al branch configurado (típicamente `main`) dispara un deploy nuevo.
+
+---
+
 ## 🔐 Variables de entorno
 
 | Variable | Descripción | Default |
