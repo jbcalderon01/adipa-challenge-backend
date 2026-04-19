@@ -323,18 +323,6 @@ ADIPA opera cursos y diplomados en psicología y salud mental con más de 100,00
 
 ---
 
-## 🔮 Mejoras futuras
-
-- [ ] Validación de tamaño máximo de archivo y tipo MIME
-- [ ] OCR para PDFs escaneados con `pytesseract`
-- [ ] Soporte de tablas en Word
-- [ ] Rate limiting por IP
-- [ ] Logging estructurado (request_id, latencias, etc.)
-- [ ] Tests de integración con el LLM real (opcional, detrás de flag)
-- [ ] Streaming de respuesta para documentos muy grandes
-
----
-
 ## 👤 Autor
 
 Johnny Bernal — [bernaljohnny3@gmail.com](mailto:bernaljohnny3@gmail.com)
